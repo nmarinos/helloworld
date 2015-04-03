@@ -1,12 +1,14 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 int main()
 {
-    int x;
-    cout << "type x";
-    cin >> x;
-    cout << "Hello world!" << endl;
-    return 0;
+    string str ("123456789");
+    for (char c : str)
+    {
+        cout << "[" << c << "]";
+
+    }
+            return 0;
 }
