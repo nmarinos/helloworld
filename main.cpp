@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int x;
-    cout << "type x value";
+    cout << "type x";
     cin >> x;
     cout << "Hello world!" << endl;
     return 0;
